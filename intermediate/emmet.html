@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <p> this is a paragraph</p>
+    </div>
+
+    <!-- .wrapper>h1{Title}+.content 
+    . is div 
+    > is for child 
+    {} is for inside text 
+    + is for sibling -->
+    <div class="wrapper">
+        <h1>Title</h1>
+        <div class="content"></div>
+    </div>
+
+
+    <nav>
+        <ul class="nav">
+            <li class="nav-item1"><a href=""></a></li>
+        </ul>
+    </nav>
+    <!-- nav>ul.nav>li.nav-item$*>a -->
+    <!-- ctr + shift + p to open command window
+    select emmet abbreviation -->
+    <nav>
+        <ul class="nav">
+            <li class="nav-item1">
+                <a href="">About</a>
+            </li>
+            <li class="nav-item2">
+                <a href="">News</a>
+            </li>
+            <li class="nav-item3">
+                <a href="">Products</a>
+            </li>
+            <li class="nav-item4">
+                <a href="">Contacts</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- ul.nav>li.nav-item$*>a|t -->
+    <ul class="nav">
+        <li class="nav-item1">
+            <a href="">Ordered item 1</a>
+        </li>
+        <li class="nav-item2">
+            <a href="">Ordered item 2</a>
+        </li>
+        <li class="nav-item3">
+            <a href="">Ordered item 3</a>
+        </li>
+    </ul>
+
+    <!-- ul>li[title=$#]*>{$#}+img[alt=$#] -->
+
+    <ul>
+        <li title="About">
+            About
+            <img src="" alt="About">
+        </li>
+        <li title="News">
+            News
+            <img src="" alt="News">
+        </li>
+        <li title="Products">
+            Products
+            <img src="" alt="Products">
+        </li>
+        <li title="Contacts">
+            Contacts
+            <img src="" alt="Contacts">
+        </li>
+    </ul>
+
+    <!-- in command window - type emmet: remove tag after placing the cursor after 
+    div to remove it and have correct identation -->
+    <div class="wrapper">
+        <p>sfoinas sfsaf wsef</p>
+        <p>sfoinas sfsaf wsef</p>
+        <p>sfoinas sfsaf wsef</p>
+    </div>
+
+
+    <p>sfoinas sfsaf wsef</p>
+    <p>sfoinas sfsaf wsef</p>
+    <p>sfoinas sfsaf wsef</p>
+    <!-- key bindindgs
+    wrap with abbreviation - ctrl + shift + a 
+    remove tag - ctrl + shift + d -->
+
+    <div class="className"></div>
+    <div class="className"></div>
+    <div class="className"></div>
+</body>
+
+</html>
